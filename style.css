@@ -19,6 +19,11 @@ width: 78%;
 
 }
 
+optgroup,option {
+font-family: 'Nunito', Arial, sans-serif !important;
+
+}
+
 h1, h2, h3, h4, h5, h6 {color:#6D15AA;}
 h4 {font-size:16px;}
 h5 {font-size:14px;}
@@ -49,6 +54,12 @@ margin-top:16px;
 margin-left:0px;
 }
 #menu a, .footer a {color:#fff;}
+
+/*#menu li {width:160px;height:60px;}*/
+
+/*#menu:hover {background: #6D15AA;}*/
+
+/*#menu li a:hover {background: #6D15AA;}*/
 
 #menu {width:100%;
 margin-left:auto;
@@ -168,6 +179,14 @@ width: 10% !important;
 
 .scholar a {color:#fff;}
 .fourblock .scholar {margin-left:320px;}
+
+/*.button:hover {background: #6d15aa;}*/
+
+/*.button a:hover {
+background: #6d15aa;
+color:#fff;
+}*/
+
 .button {
 width:80px;
 background: #62de0c;
@@ -196,6 +215,9 @@ font-family: 'Nunito', Arial, sans-serif;
 .button a {
 color:#6d15aa;
 }
+
+
+
 .line1 {
 font-size:25px;
 
