@@ -15,8 +15,10 @@ box-shadow: 10px 0 0 #ccc;
 background-color: #FFF;
 border-width: 5px;
 border-radius: 8px;
-/*width: 78%;*/
-width: 84%;
+width: 78%;
+/*width: 84%;*/
+/*78% is good for Chrome and IE but 84% seems to be good only for Firefox; is there 
+a way to specify widths for each browser, like how you can specify background styles for each type of browser?*/
 }
 
 optgroup,option {
