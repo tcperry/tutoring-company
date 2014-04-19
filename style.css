@@ -15,8 +15,8 @@ box-shadow: 10px 0 0 #ccc;
 background-color: #FFF;
 border-width: 5px;
 border-radius: 8px;
-width: 78%;
-
+/*width: 78%;*/
+width: 84%;
 }
 
 optgroup,option {
@@ -550,7 +550,7 @@ margin-left:100px;
 .contact-form form input {float:left; margin:10px;}
 .contact-form input[type=submit] {margin-left:280px !important;margin-top:20px;}
 #contact-text {float:left;width:330px;border:none;}
-textarea {float:left;width:500px;height:365px;}
+textarea {float:left;width:500px;height:365px;margin-top:12px;}
 
 .map {
 float:left;
