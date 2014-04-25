@@ -64,11 +64,6 @@ margin-left:0px;
 }
 #menu a, .footer a {color:#fff;}
 
-/*#menu li {width:160px;height:60px;}*/
-
-/*#menu:hover {background: #6D15AA;}*/
-
-/*#menu li a:hover {background: #6D15AA;}*/
 
 #menu {width:100%;
 margin-left:auto;
@@ -189,12 +184,7 @@ width: 10% !important;
 .scholar a {color:#fff;}
 .fourblock .scholar {margin-left:320px;}
 
-/*.button:hover {background: #6d15aa;}*/
 
-/*.button a:hover {
-background: #6d15aa;
-color:#fff;
-}*/
 
 .button {
 width:80px;
