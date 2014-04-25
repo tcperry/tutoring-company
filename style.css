@@ -16,16 +16,10 @@ background-color: #FFF;
 border-width: 5px;
 border-radius: 8px;
 width: 78%;
-/*width: 84%;*/
-/*78% is good for Chrome and IE but 84% seems to be good only for Firefox; is there 
-a way to specify widths for each browser, like how you can specify background styles for each type of browser?*/
-}
-
-@media all and (max-width: 1289px) {
-.sidebar { margin-top:none !important;}
-#menu ul {margin-left:none !important;}
 
 }
+
+
 
 .form-note{font-style:italic;font-size:12px;text-align:left;}
 .sc {margin-left:-42px;}
@@ -583,3 +577,9 @@ margin-right: 20px;
 .contact-info ul li {list-style-type:none;line-height: 20px;}
 
 .contact-form, .map, .contact-info {margin-top:30px;}
+
+@media all and (max-width: 1289px) {
+.sidebar { margin-top:0;}
+#menu ul {margin-left:0;}
+
+}
